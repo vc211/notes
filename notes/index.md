@@ -7,9 +7,9 @@
 
 ## Latest Finds
 
+- [PostGIS spatial joins in DuckDB (Geomermaids)](https://www.geomermaids.com/cookbook/duckdb-spatial/): How to rewrite PostGIS spatial joins for DuckDB and make them fast (R-tree indexes, metric CRS, inlined bounding boxes). Topic: [[SQL]]
 - [RustGIS](https://web.rustgis.app/): Browser-based GIS web app, available hosted or as a self-hostable static build. Topic: [[GIS]]
 - [crop-cycle-detection (NASA Harvest)](https://github.com/nasaharvest/crop-cycle-detection): Crop-agnostic model that finds each cropping cycle in an NDVI time series and extracts season milestones. Topic: [[Agriculture]]
-- [NISAR Polarimetric Analysis Training Toolkit](https://github.com/dharmendraisro/nisar-polarimetric-training): Python/Jupyter training for NISAR L2 GCOV radar data, from data discovery to polarimetric decomposition. Topic: [[Remote_Sensing]]
 
 ## Topics
 
@@ -33,4 +33,4 @@
 - [[Machine_Learning]] — Machine learning methods, competitions and applications.
 - [[Python]] — Python packages, courses and tools.
 - [[Research_Tools]] — Literature search, open science and licensing tools.
-- [[SQL]] — SQL and spatial databases (PostGIS).
+- [[SQL]] — SQL and spatial databases (PostGIS, DuckDB).
