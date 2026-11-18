@@ -1,0 +1,81 @@
+site_name: Personal Knowledge Base
+site_url: https://vc211.github.io/notes/
+repo_url: https://github.com/vc211/notes
+repo_name: vc211/notes
+edit_uri: edit/main/notes/
+
+docs_dir: notes
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
+
+hooks:
+  - hooks.py
+
+markdown_extensions:
+  - tables
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - exclude-search:
+      exclude:
+        - log.md
+  - roamlinks
+
+nav:
+  - Home:
+    - index.md
+    - Data: Data.md
+    - Deep Learning: Deep_Learning.md
+    - Embeddings: Embeddings.md
+    - GIS: GIS.md
+    - Google Earth Engine: Google_Earth_Engine.md
+    - Machine Learning: Machine_Learning.md
+    - Python: Python.md
+    - Research Tools: Research_Tools.md
+    - SQL: SQL.md
+    - Agriculture: Agriculture.md
+    - Carbon Markets: Carbon_Markets.md
+    - Cartography: Cartography.md
+    - Climate Change: Climate_Change.md
+    - Forests: Forests.md
+    - Remote Sensing: Remote_Sensing.md
+    - Soil: Soil.md
+    - Urban Planning: Urban_Planning.md
+    - Water Resources: Water_Resources.md
+    - Changelog: log.md
